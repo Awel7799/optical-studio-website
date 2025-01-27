@@ -4,7 +4,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: rgb(234, 245, 254);
+    background-color: rgb(115, 122, 128);
 }
 .header{
     background-color:hsl(223, 18%, 92%);
@@ -69,11 +69,15 @@ a{
     margin-right: 10%;
     
 }
+.logo:hover{
+    transform: scale(1.06);
+    box-shadow: 1px 1px 5px 1px #bfd47f;
+}
 .service-title{
     text-align: center;
     margin: 5%;
     color: rgb(16, 13, 13);
-    box-shadow: 1px 1px 5px 1px #0b0a0a;
+    box-shadow: 0px 4px 5px 4px #1e3f0d;
 }
 .services-1{
     display: flex;
@@ -87,13 +91,19 @@ a{
     border: solid 2px #eddada;
     margin: 10px;
 }
+.photo-1-image:hover{
+    transform: scale(1.06);
+    box-shadow: 1px 1px 5px 1px #bfd47f;
+}
 .photo-1{
     margin: 5px;
 }
 .photo-1-disc-text{
     margin-top: 80px;
     margin-left: 10px;
-    color: rgb(16, 13, 13);
+    color: rgb(11, 9, 9);
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .services-2{
     width: 100%;
@@ -106,6 +116,10 @@ a{
     box-shadow: 1px 1px 5px 1px #0b0a0a;
     margin: 50px 10px 10px 10px;
 }
+.services-2:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 1px 5px 1px #bfd47f;
+}
 .photo-2-disc-text{
     padding-top:20%;
     padding-right: 40%;
@@ -117,7 +131,9 @@ a{
 }
 .services-3{
     width: 100vw;
+    height: 150vh;
     display: flex;
+    margin-bottom: 0%;
 }
 .photo-3{
     width: 100%;
@@ -126,11 +142,55 @@ a{
 .photo-3-image{
     width: 300px;
     height: 300px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px #0b0a0a;
+    margin: 50px 10px 10px 10px;
+    
+}
+.photo-3-image:hover{
+    transform: scale(1.06);
+    box-shadow: 1px 1px 5px 1px #bfd47f;
 }
 .photo-4-image{
-    width: 100%;
+    width: 300px;
     height: 300px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px #0b0a0a;
+    margin: 10px 10px 0px 10px;
 }
+.photo-4-image:hover{
+    transform: scale(1.06);
+    box-shadow: 1px 1px 5px 1px #bfd47f;
+}
+
 .photo-3-disc-text{
-    width: 50%;
+    text-align: center;
+    color: rgb(16, 13, 13);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.services-4{
+    display: flex;
+    margin-top: 4%;
+    
+   
+}
+.photo-5{
+    width: 90%;
+    height: 35vw;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px #e2f583;
+    margin: -10px 10px 10px 10px;
+}
+.photo-5:hover{
+    transform: scale(1.06);
+    box-shadow: 1px 1px 5px 1px #080905;
+}
+.card-disc{
+    margin-left: 40px;
+    color: rgb(16, 13, 13);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
 }
