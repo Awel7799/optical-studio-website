@@ -132,7 +132,7 @@ a{
 }
 .services-3{
     width: 100vw;
-    height: 150vh;
+    height: 400px;
     display: flex;
     margin-bottom: 0%;
 }
@@ -166,6 +166,8 @@ a{
 
 .photo-3-disc-text{
     text-align: center;
+    margin-top: 25%;
+    text-wrap: wrap;
     color: rgb(16, 13, 13);
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
